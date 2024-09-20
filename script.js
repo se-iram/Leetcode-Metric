@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function(){
         updateProgress(solvedHard, totalHardQues, hardLabel, hardProgress)
 
         const cardsData = [
-            {label: "Total Solved Questions", value: data.solvedTotal},
+            {label: "Total Solved Questions", value: data.totalSolved},
             {label: "Acceptance Rate", value: data.acceptanceRate},
             {label: "Ranking", value: data.ranking},
             {label: "Contribution Points", value: data.contributionPoints}
